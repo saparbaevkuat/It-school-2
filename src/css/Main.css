@@ -1,0 +1,43 @@
+main{
+    display: flex;
+    width: 100%;
+    height: 655px;
+    background: url("./../img/Website-Design.jpg") no-repeat;
+    background-size: 100%;
+}
+
+main .mainText{
+    margin-top: 30px;
+    margin-left: 40px;
+    color: white;
+}
+
+main .mainText .mainTextTitle{
+    font-size: 64px;
+    font-weight: 600;
+    line-height: .8;
+    margin-bottom: 20px;
+}
+
+main .mainText .mainTextDesc{
+    font-size: 21px;
+    margin-bottom: 25px;
+}
+
+main .mainText .mainTextButt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 0;
+    width: 150px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .4s;
+    font-size: 24px;
+    background: white;
+    color: #000c24;
+}
+
+main .mainText .mainTextButt:hover{
+    transform: scale(.95);
+}
